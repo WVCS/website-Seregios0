@@ -1,3 +1,40 @@
 body {
+  background-color:lightblue;
+}
 
+h2{
+  color: black;
+  text-align: center;
+}
+
+img {
+  width: 100vh;
+}
+
+img:hover {
+  width: 150vh;
+}
+
+nav {list-style-type: none;
+background-color:white;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+li {
+  display:inline;
+  padding: 13px;
+  float: left;
+}
+
+li:hover {
+  backgrtound-color: red;
+}
+
+a {
+  text decoration: none;
+  color: black;
+  
 }
